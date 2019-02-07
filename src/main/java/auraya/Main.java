@@ -27,15 +27,14 @@ import lombok.SneakyThrows;
  *    vocab
  *    
  * If these corresponding options are omitted then the defaults are used for all utterances.
- * If these corresponding options specified just once, then they apply to all utterances.
- * If these corresponding options specified just multiple times, 
- * 		then they apply to utterances in the order they appear on command line, 
- * 		cycling through the order if there are fewer.
- * 
- * An utterance option can be 'commented out' by changing it to -ux /path/to/utterance
+ * If these corresponding options are specified just once, then they apply to all utterances.
+ * If these corresponding options are specified multiple times then:
+ * 		they apply to utterances in the order they appear on command line
+ * 		cycle through the order if there are fewer.
  * 
  * All paths are either absolute or relative to current working directory.
  * 
+ * An utterance option can be 'commented out' by changing it to -xu /path/to/utterance
  * 
  * @author Jamie Lister
  *
