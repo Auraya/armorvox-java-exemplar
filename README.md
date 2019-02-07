@@ -1,4 +1,4 @@
-# Armorvox Java Exemplar
+# ArmorVox Java Exemplar
 
 This project is open software designed as an exemplar and starting-point for partners and customers using Auraya's ArmorVox speaker recognition product.
 
