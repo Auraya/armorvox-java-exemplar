@@ -200,6 +200,7 @@ public class Main {
 	 */
 	@SneakyThrows
 	private static UtteranceParameters[] makeUtteranceParametersArray(String[] utts, String[] checkQualityArray, String[] phrases, String[] vocabs, String[] isRecognitionArray) {
+		if (utts == null) return null;
 		UtteranceParameters[] result = new UtteranceParameters[utts.length];
 		for (int i = 0; i < utts.length; i++) {
 			String uttPath = utts[i];
